@@ -10,7 +10,7 @@ for(let btn of btns)
 }
 
 
-
+//longer way for same code
 
 // let pink=document.querySelector("#pink");
 // let red=document.querySelector("#red");
