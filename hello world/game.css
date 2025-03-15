@@ -1,0 +1,19 @@
+*{
+    margin:auto;
+    padding:auto;
+
+}
+button{
+    background-color:rgb(200, 241, 241);
+  margin:1rem;
+    padding:40px 40px;
+  
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
