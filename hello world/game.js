@@ -1,32 +1,44 @@
-let pink=document.querySelector("#pink");
-let red=document.querySelector("#red");
-let btn3=document.querySelector("#green");
-let btn4=document.querySelector("#yellow");
-let btn5=document.querySelector("#orange");
-let btn6=document.querySelector("#purple");
-
 let body=document.querySelector("body");
+let btns=document.querySelectorAll("button");
 
-pink.addEventListener("click", function(){
-    body.style.backgroundColor="pink";
-})
 
-red.addEventListener("click", function(){
-    body.style.backgroundColor="red";
-})
+for(let btn of btns)
+{
+    btn.addEventListener("click", function(){
+        body.style.backgroundColor=this.id;
+    })
+}
 
-btn3.addEventListener("click", function(){
-    body.style.backgroundColor="green";
-})
 
-btn4.addEventListener("click", function(){
-    body.style.backgroundColor="yellow";
-})
 
-btn5.addEventListener("click", function(){
-    body.style.backgroundColor="orange";
-})
 
-btn6.addEventListener("click", function(){
-    body.style.backgroundColor="purple";
-})
+// let pink=document.querySelector("#pink");
+// let red=document.querySelector("#red");
+// let green=document.querySelector("#green");
+// let yellow=document.querySelector("#yellow");
+// let orange=document.querySelector("#orange");
+// let purple=document.querySelector("#purple");
+
+// pink.addEventListener("click", function(){
+//     body.style.backgroundColor="pink";
+// })
+
+// red.addEventListener("click", function(){
+//     body.style.backgroundColor="red";
+// })
+
+// green.addEventListener("click", function(){
+//     body.style.backgroundColor="green";
+// })
+
+// yellow.addEventListener("click", function(){
+//     body.style.backgroundColor="yellow";
+// })
+
+// orange.addEventListener("click", function(){
+//     body.style.backgroundColor="orange";
+// })
+
+// purple.addEventListener("click", function(){
+//     body.style.backgroundColor="purple";
+// })
